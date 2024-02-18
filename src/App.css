@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+.csv-uploader {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.csv-uploader h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.csv-uploader input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.csv-uploader button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.csv-uploader button:hover {
+  background-color: #0056b3;
+}
+
+.csv-uploader .message {
+  margin-top: 10px;
+}
+
+.csv-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.csv-table th,
+.csv-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.csv-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
